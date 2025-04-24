@@ -6,13 +6,13 @@ import { cva, type VariantProps } from 'class-variance-authority';
 const textVariants = cva('', {
   variants: {
     variant: {
-      default: 'text-black dark:text-white',
-      secondary: 'text-gray-500 dark:text-gray-400',
-      success: 'text-green-600 dark:text-green-400',
-      warning: 'text-amber-500 dark:text-amber-400',
-      danger: 'text-red-600 dark:text-red-400',
-      disabled: 'text-gray-400 dark:text-gray-500',
-      link: 'text-blue-600 dark:text-blue-400 underline',
+      default: 'text-gray-900 dark:text-white',
+      primary: 'text-primary dark:text-primary',
+      success: 'text-success dark:text-success',
+      warning: 'text-warning dark:text-warning',
+      danger: 'text-danger dark:text-danger',
+      disabled: 'text-disabled dark:text-disabled',
+      link: 'text-link dark:text-link underline',
     },
   },
   defaultVariants: {

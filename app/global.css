@@ -4,8 +4,24 @@
 
 @layer base {
   :root {
+    --color-default: #1c1917;
+    --color-primary: #1677ff;
+    --color-secondary: #e5e7eb;
+    --color-success: #52c41a;
+    --color-warning: #faad14;
+    --color-danger: #ff4d4f;
+    --color-disabled: #bfbfbf;
+    --color-link: #1677ff;
   }
 
   .dark {
+    --color-default: #fafafa;
+    --color-primary: #1677ff;
+    --color-secondary: #1e2939;
+    --color-success: #52c41a;
+    --color-warning: #faad14;
+    --color-danger: #ff4d4f;
+    --color-disabled: #bfbfbf;
+    --color-link: #1677ff;
   }
 }

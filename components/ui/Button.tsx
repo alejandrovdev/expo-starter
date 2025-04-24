@@ -9,17 +9,18 @@ import React from 'react';
 import { cn } from '@/shared/utils/cn';
 import { cva, type VariantProps } from 'class-variance-authority';
 import { Text } from './Text';
+import COLORS from '@/shared/constants/colors';
 
 const buttonVariants = cva(
   'flex flex-row items-center justify-center rounded-md active:opacity-90',
   {
     variants: {
       variant: {
-        default: 'bg-blue-600 dark:bg-blue-700',
-        secondary: 'bg-gray-200 dark:bg-gray-700',
-        success: 'bg-green-600 dark:bg-green-700',
-        warning: 'bg-amber-500 dark:bg-amber-600',
-        danger: 'bg-red-600 dark:bg-red-700',
+        default: 'bg-primary dark:bg-primary',
+        secondary: 'bg-secondary dark:bg-secondary',
+        success: 'bg-success dark:bg-success',
+        warning: 'bg-warning dark:bg-warning',
+        danger: 'bg-danger dark:bg-danger',
         outline: 'bg-transparent border border-gray-300 dark:border-gray-600',
         ghost: 'bg-transparent hover:bg-gray-100 dark:hover:bg-gray-800',
         link: 'bg-transparent underline-offset-4 hover:underline',
@@ -41,13 +42,13 @@ const buttonTextVariants = cva('font-medium', {
   variants: {
     variant: {
       default: 'text-white',
-      secondary: 'text-gray-900 dark:text-white',
+      secondary: 'text-default dark:text-default',
       success: 'text-white',
       warning: 'text-white',
       danger: 'text-white',
       outline: 'text-black dark:text-white',
       ghost: 'text-black dark:text-white',
-      link: 'text-blue-600 dark:text-blue-400',
+      link: 'text-primary dark:text-primary',
     },
     size: {
       default: 'text-base',
@@ -92,11 +93,12 @@ export const Button = ({
 
   const getSpinnerColor = () => {
     if (variant === 'ghost' || variant === 'link' || variant === 'secondary') {
-      return isDark ? 'white' : 'black';
+      return isDark ? COLORS.white : COLORS.black;
     } else if (variant === 'outline') {
-      return isDark ? 'white' : 'black';
+      return isDark ? COLORS.white : COLORS.black;
     }
-    return 'white';
+
+    return COLORS.white;
   };
 
   return (

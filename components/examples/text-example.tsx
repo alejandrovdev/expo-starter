@@ -9,11 +9,12 @@ export const TextExample = () => {
 
       <View className="mb-6 gap-4">
         <Text>Default Text</Text>
-        <Text variant="secondary">Secondary Text</Text>
+        <Text variant="primary">Primary Text</Text>
         <Text variant="success">Success Text</Text>
         <Text variant="warning">Warning Text</Text>
         <Text variant="danger">Danger Text</Text>
         <Text variant="disabled">Disabled Text</Text>
+        <Text variant="link">Link Text</Text>
       </View>
     </View>
   );

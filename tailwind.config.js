@@ -11,6 +11,16 @@ module.exports = {
   presets: [require('nativewind/preset')],
   theme: {
     extend: {
+      colors: {
+        default: 'var(--color-default)',
+        primary: 'var(--color-primary)',
+        secondary: 'var(--color-secondary)',
+        success: 'var(--color-success)',
+        warning: 'var(--color-warning)',
+        danger: 'var(--color-danger)',
+        disabled: 'var(--color-disabled)',
+        link: 'var(--color-link)',
+      },
       borderWidth: {
         hairline: hairlineWidth(),
       },

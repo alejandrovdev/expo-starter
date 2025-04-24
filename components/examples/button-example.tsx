@@ -35,10 +35,6 @@ export const ButtonExample = () => {
       <View className="mb-6 gap-3">
         <Button block>Block Default</Button>
 
-        <Button variant="secondary" block>
-          Block Secondary
-        </Button>
-
         <Button variant="success" block>
           Block Success
         </Button>
@@ -73,13 +69,6 @@ export const ButtonExample = () => {
           }
         >
           Default with Prefix
-        </Button>
-
-        <Button
-          variant="secondary"
-          prefix={<Icon library="Feather" name="filter" size="sm" />}
-        >
-          Secondary with Prefix
         </Button>
 
         <Button
@@ -160,13 +149,6 @@ export const ButtonExample = () => {
         </Button>
 
         <Button
-          variant="secondary"
-          suffix={<Icon library="MaterialIcons" name="sort" size="sm" />}
-        >
-          Secondary with Suffix
-        </Button>
-
-        <Button
           variant="success"
           suffix={
             <Icon
@@ -240,12 +222,6 @@ export const ButtonExample = () => {
         </View>
 
         <View className="mr-2 mb-2">
-          <Button variant="secondary" disabled>
-            Disabled Secondary
-          </Button>
-        </View>
-
-        <View className="mr-2 mb-2">
           <Button variant="success" disabled>
             Disabled Success
           </Button>
@@ -287,12 +263,6 @@ export const ButtonExample = () => {
       <View className="mb-6 gap-3 flex-row flex-wrap">
         <View className="mr-2 mb-2">
           <Button loading>Loading Default</Button>
-        </View>
-
-        <View className="mr-2 mb-2">
-          <Button variant="secondary" loading>
-            Loading Secondary
-          </Button>
         </View>
 
         <View className="mr-2 mb-2">
