@@ -5,8 +5,8 @@ import {
   CardHeader,
   CardContent,
   CardFooter,
-} from '@/components/ui/Card';
-import { Text } from '@/components/ui/Text';
+} from '@/shared/components/ui/Card';
+import { Text } from '@/shared/components/ui/Text';
 
 export function CardExample() {
   return (

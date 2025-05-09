@@ -1,7 +1,7 @@
 import { View } from 'react-native';
-import { Icon } from '@/components/ui/Icon';
-import { Button } from '@/components/ui/Button';
-import { Text } from '@/components/ui/Text';
+import { Icon } from '@/shared/components/ui/Icon';
+import { Button } from '@/shared/components/ui/Button';
+import { Text } from '@/shared/components/ui/Text';
 import { cn } from '@/shared/utils/cn';
 import useColorScheme from '@/shared/hooks/useColorScheme';
 import { useCallback, useMemo } from 'react';

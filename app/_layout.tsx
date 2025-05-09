@@ -1,7 +1,7 @@
 import './global.css';
 
 import { Stack } from 'expo-router';
-import { ThemeProvider } from '@/providers/theme-provider';
+import { ThemeProvider } from '@/shared/components/providers/theme-provider';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 export { ErrorBoundary } from 'expo-router';

@@ -1,11 +1,11 @@
 import { View, ScrollView, SafeAreaView } from 'react-native';
-import { ThemeSwitcherButton } from '@/components/features/theme-switcher-button';
-import { TextExample } from '@/components/examples/text-example';
-import { CardExample } from '@/components/examples/card-example';
-import { ButtonExample } from '@/components/examples/button-example';
-import { IconExample } from '@/components/examples/icon-example';
-import { Text } from '@/components/ui/Text';
-import { Card } from '@/components/ui/Card';
+import { ThemeSwitcherButton } from '@/shared/components/features/theme-switcher-button';
+import { TextExample } from '@/shared/components/examples/text-example';
+import { CardExample } from '@/shared/components/examples/card-example';
+import { ButtonExample } from '@/shared/components/examples/button-example';
+import { IconExample } from '@/shared/components/examples/icon-example';
+import { Text } from '@/shared/components/ui/Text';
+import { Card } from '@/shared/components/ui/Card';
 import { Stack } from 'expo-router';
 
 const Index = () => {

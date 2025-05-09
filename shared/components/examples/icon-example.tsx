@@ -1,7 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
-import { Text } from '@/components/ui/Text';
-import { Icon } from '@/components/ui/Icon';
+import { Text } from '@/shared/components/ui/Text';
+import { Icon } from '@/shared/components/ui/Icon';
 
 export const IconExample = () => {
   return (

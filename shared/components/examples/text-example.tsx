@@ -1,6 +1,6 @@
 import React from 'react';
 import { View } from 'react-native';
-import { Text } from '@/components/ui/Text';
+import { Text } from '@/shared/components/ui/Text';
 
 export const TextExample = () => {
   return (
